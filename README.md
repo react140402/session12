@@ -12,7 +12,7 @@ Geo Location
 
 Rename
     npx react-native-rename
-    bunx react-native-rename@latest "App 12 ✨" -b "ir.fad.pashaie.reactnative.app12" 
+    bunx react-native-rename@latest "App12" -b "ir.fad.pashaie.reactnative.app12" 
 
 
 ## bunx @react-native-community/cli init
