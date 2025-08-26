@@ -10,6 +10,10 @@ Map:
 Geo Location
     https://www.npmjs.com/package/@react-native-community/geolocation
 
+Rename
+    npx react-native-rename
+    bunx react-native-rename@latest "App 12 ✨" -b "ir.fad.pashaie.reactnative.app12" 
+
 
 ## bunx @react-native-community/cli init
 ## bunx react-native run-android
