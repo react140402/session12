@@ -25,7 +25,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 export default function HomeTab() {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'خانه' }} />
             <Stack.Screen name="Counter" component={CounterScreen} />
             {/* <Stack.Screen name="DrugStores" component={DrugStoresScreen} />
             <Stack.Screen name="DrugStoreDetail" component={DrugStoreDetailScreen} /> */}

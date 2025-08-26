@@ -1,6 +1,6 @@
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StyleSheet, useColorScheme } from 'react-native';
+import { I18nManager, StyleSheet, useColorScheme } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeTab from './src/screens/HomeTab';
 import DrugStoreTab from './src/screens/DrugStoreTab';
@@ -12,6 +12,8 @@ import { useNetInfo } from "@react-native-community/netinfo";
 import CameraTab from './src/screens/CameraTab';
 
 
+I18nManager.forceRTL(true);
+I18nManager.allowRTL(true);
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
   useEffect(() => {
