@@ -24,6 +24,7 @@
         "react-native-maps": "^1.25.3",
         "react-native-safe-area-context": "^5.5.2",
         "react-native-screens": "^4.13.1",
+        "react-native-share": "^12.2.0",
         "react-native-svg": "^15.12.1",
         "react-native-url-polyfill": "^2.0.0",
         "react-native-vector-icons": "^10.3.0",
@@ -1504,6 +1505,8 @@
     "react-native-safe-area-context": ["react-native-safe-area-context@5.5.2", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-t4YVbHa9uAGf+pHMabGrb0uHrD5ogAusSu842oikJ3YKXcYp6iB4PTGl0EZNkUIR3pCnw/CXKn42OCfhsS0JIw=="],
 
     "react-native-screens": ["react-native-screens@4.13.1", "", { "dependencies": { "react-freeze": "^1.0.0", "react-native-is-edge-to-edge": "^1.2.1", "warn-once": "^0.1.0" }, "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-EESsMAtyzYcL3gpAI2NKKiIo+Ew0fnX4P4b3Zy/+MTc6SJIo3foJbZwdIWd/SUBswOf7IYCvWBppg+D8tbwnsw=="],
+
+    "react-native-share": ["react-native-share@12.2.0", "", {}, "sha512-f6MB9BsKa9xVvu0DKbxq5jw4IyYHqQeqUlCNkD8eAFoJx6SD31ObPAn7SQ6NG9AOuhCy6aYuSJYJvx25DaoMZQ=="],
 
     "react-native-size-matters": ["react-native-size-matters@0.4.2", "", { "peerDependencies": { "react-native": "*" } }, "sha512-DKE3f/sdcozd24oASgkP1iGg+YU3HoajRa5k3a4wkRzpiqREq8SGX12Y5zBgAt/8IivLQoTMYkyQu1/Giuy+zQ=="],
 

@@ -10,7 +10,7 @@ import SvgUri from "expo-svg-uri";
 import WebView from "react-native-webview";
 import MapView, { Marker } from "react-native-maps";
 import Geolocation, { GeolocationResponse } from "@react-native-community/geolocation";
-
+import Share from 'react-native-share';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'DrugStoreDetail'>;
 
@@ -78,6 +78,10 @@ export default function DrugStoreDetailScreen({ route }: Props) {
     const formatValue = (value: any) => (value === null || value === '' ? 'نامشخص' : value);
 
     //Image: url <Image source={{uri: }} />
+
+    const share = async () => {
+        const shareResponse = await Share.open({ title: drugStore.name, message: "asdad" });
+    };
 
     return (
         <ScrollView style={styles.container}>
@@ -246,6 +250,7 @@ export default function DrugStoreDetailScreen({ route }: Props) {
 
             {/* Footer */}
             <View style={styles.footer}>
+                <Button onPress={share}><Icon name="share"></Icon></Button>
                 <Text style={styles.footerText}>شناسه: {drugStore.id}</Text>
                 <Text style={styles.footerText}>کاربر: {user.name}</Text>
 

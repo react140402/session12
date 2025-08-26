@@ -28,7 +28,9 @@ Camera
     https://react-native-vision-camera.com/docs/guides
     react-native-vision-camera
 
-
+Share
+    bun add react-native-share
+    
 
 
 ## bunx @react-native-community/cli init
