@@ -18,6 +18,11 @@ Icon
     https://icon.kitchen/
 
 
+Spalsh Screen
+    bun add react-native-bootsplash
+    bunx react-native-bootsplash generate .\play_store_512.png
+    MainActivity.kt
+
 ## bunx @react-native-community/cli init
 ## bunx react-native run-android
 

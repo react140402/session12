@@ -6,10 +6,16 @@ import HomeTab from './src/screens/HomeTab';
 import DrugStoreTab from './src/screens/DrugStoreTab';
 import Icon from '@react-native-vector-icons/material-design-icons';
 const Tab = createBottomTabNavigator();
+import BootSplash from "react-native-bootsplash";
+import { useEffect } from 'react';
 
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
+  useEffect(() => {
+    BootSplash.hide({ fade: true })
+
+  }, [])
   return (
 
     <NavigationContainer>

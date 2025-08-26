@@ -8,6 +8,7 @@ buildscript {
         kotlinVersion = "2.1.20"
     }
     repositories {
+        maven { url 'https://repo.maven.apache.org/maven2/' }        
         google()
         maven { url 'https://maven.google.com' }
         mavenCentral()
