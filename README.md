@@ -23,6 +23,14 @@ Spalsh Screen
     bunx react-native-bootsplash generate .\play_store_512.png
     MainActivity.kt
 
+
+Camera
+    https://react-native-vision-camera.com/docs/guides
+    react-native-vision-camera
+
+
+
+
 ## bunx @react-native-community/cli init
 ## bunx react-native run-android
 

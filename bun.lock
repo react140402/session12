@@ -5,6 +5,7 @@
       "name": "session09",
       "dependencies": {
         "@react-native-community/geolocation": "^3.4.0",
+        "@react-native-community/netinfo": "^11.4.1",
         "@react-native-vector-icons/material-design-icons": "^12.2.0",
         "@react-native/new-app-screen": "0.80.2",
         "@react-navigation/bottom-tabs": "^7.4.4",
@@ -26,6 +27,7 @@
         "react-native-svg": "^15.12.1",
         "react-native-url-polyfill": "^2.0.0",
         "react-native-vector-icons": "^10.3.0",
+        "react-native-vision-camera": "^4.7.1",
         "react-native-webview": "^13.15.0",
       },
       "devDependencies": {
@@ -410,6 +412,8 @@
     "@react-native-community/cli-types": ["@react-native-community/cli-types@19.1.1", "", { "dependencies": { "joi": "^17.2.1" } }, "sha512-rOGiYjeDM9tkYBEuK6TJrnxpMhmaId1Un8pjQJswz7W9w2Vb6+nnLfWja7X7VmDIvqIK5GhVobRHsmKCKIdDEA=="],
 
     "@react-native-community/geolocation": ["@react-native-community/geolocation@3.4.0", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-bzZH89/cwmpkPMKKveoC72C4JH0yF4St5Ceg/ZM9pA1SqX9MlRIrIrrOGZ/+yi++xAvFDiYfihtn9TvXWU9/rA=="],
+
+    "@react-native-community/netinfo": ["@react-native-community/netinfo@11.4.1", "", { "peerDependencies": { "react-native": ">=0.59" } }, "sha512-B0BYAkghz3Q2V09BF88RA601XursIEA111tnc2JOaN7axJWmNefmfjZqw/KdSxKZp7CZUuPpjBmz/WCR9uaHYg=="],
 
     "@react-native-vector-icons/common": ["@react-native-vector-icons/common@12.2.0", "", { "dependencies": { "@react-native-community/cli-tools": "^17.0.0", "picocolors": "^1.1.1", "plist": "^3.1.0" }, "peerDependencies": { "@react-native-vector-icons/get-image": "^12.1.0", "react": "*", "react-native": "*" }, "optionalPeers": ["@react-native-vector-icons/get-image"], "bin": { "rnvi-update-plist": "lib/commonjs/scripts/updatePlist.js" } }, "sha512-FGVwBwuio2A9N9sJckXeTwp/oe20hCMe/Zul+b1ql3WkhUJpdJWVbpWKp8ikpHLRRstwuUqkeM5eY74f0zNn1A=="],
 
@@ -1508,6 +1512,8 @@
     "react-native-url-polyfill": ["react-native-url-polyfill@2.0.0", "", { "dependencies": { "whatwg-url-without-unicode": "8.0.0-3" }, "peerDependencies": { "react-native": "*" } }, "sha512-My330Do7/DvKnEvwQc0WdcBnFPploYKp9CYlefDXzIdEaA+PAhDYllkvGeEroEzvc4Kzzj2O4yVdz8v6fjRvhA=="],
 
     "react-native-vector-icons": ["react-native-vector-icons@10.3.0", "", { "dependencies": { "prop-types": "^15.7.2", "yargs": "^16.1.1" }, "bin": { "fa5-upgrade": "bin/fa5-upgrade.sh", "fa6-upgrade": "bin/fa6-upgrade.sh", "fa-upgrade.sh": "bin/fa-upgrade.sh", "generate-icon": "bin/generate-icon.js" } }, "sha512-IFQ0RE57819hOUdFvgK4FowM5aMXg7C7XKsuGLevqXkkIJatc3QopN0wYrb2IrzUgmdpfP+QVIbI3S6h7M0btw=="],
+
+    "react-native-vision-camera": ["react-native-vision-camera@4.7.1", "", { "peerDependencies": { "@shopify/react-native-skia": "*", "react": "*", "react-native": "*", "react-native-reanimated": "*", "react-native-worklets-core": "*" }, "optionalPeers": ["@shopify/react-native-skia", "react-native-reanimated", "react-native-worklets-core"] }, "sha512-N6qqjhUSC9XRUQzqx+647+sPsrf9FcEYGjRhif1WNy2z8AwPMOSLINIcmMM6C4drxH2CdiaULGAWHpx/cnsBpw=="],
 
     "react-native-webview": ["react-native-webview@13.15.0", "", { "dependencies": { "escape-string-regexp": "^4.0.0", "invariant": "2.2.4" }, "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-Vzjgy8mmxa/JO6l5KZrsTC7YemSdq+qB01diA0FqjUTaWGAGwuykpJ73MDj3+mzBSlaDxAEugHzTtkUQkQEQeQ=="],
 

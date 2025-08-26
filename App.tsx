@@ -8,6 +8,8 @@ import Icon from '@react-native-vector-icons/material-design-icons';
 const Tab = createBottomTabNavigator();
 import BootSplash from "react-native-bootsplash";
 import { useEffect } from 'react';
+import { useNetInfo } from "@react-native-community/netinfo";
+import CameraTab from './src/screens/CameraTab';
 
 
 function App() {
@@ -16,6 +18,14 @@ function App() {
     BootSplash.hide({ fade: true })
 
   }, [])
+
+  const netinfo = useNetInfo();
+
+  useEffect(() => {
+    console.log(netinfo)
+  }, [netinfo])
+
+
   return (
 
     <NavigationContainer>
@@ -28,6 +38,11 @@ function App() {
             tabBarIcon: ({ color, size }) => (<Icon name="home" size={size} color={color} />)
           }}
         />
+        <Tab.Screen name="CameraTab" component={CameraTab}
+          options={{
+            headerShown: false,
+            tabBarIcon: ({ color, size }) => (<Icon name="camera" size={size} color={color} />)
+          }} />
         <Tab.Screen name="DrugStoresTab" component={DrugStoreTab}
           options={{
             headerShown: false,
