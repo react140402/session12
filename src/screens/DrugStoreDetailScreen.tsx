@@ -79,13 +79,18 @@ export default function DrugStoreDetailScreen({ route }: Props) {
 
     //Image: url <Image source={{uri: }} />
 
-    const share = async () => {
+    async function share() {
         const shareResponse = await Share.open({ title: drugStore.name, message: "asdad" });
     };
+
+    function payment() {
+        Linking.openURL('http://192.168.1.3:2132/pay')
+    }
 
     return (
         <ScrollView style={styles.container}>
             {/* Header */}
+            <Button onPress={payment}>خرید</Button>
             <Card>
                 <Card.Title style={styles.title}>{drugStore.name}</Card.Title>
                 <Card.Divider />

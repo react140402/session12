@@ -28,9 +28,23 @@ function App() {
   }, [netinfo])
 
 
+  const linking = {
+    prefixes: [
+      "app12://"
+    ],
+    config: {
+      screens: {
+        DrugStoresTab: 'DrugStores',
+        DrugStoreDetailScreen: 'DrugStore/:id',
+      },
+    },
+  };
+
+
+
   return (
 
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
 
       <Tab.Navigator>
         <Tab.Screen name="HomeTab"
