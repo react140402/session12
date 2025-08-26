@@ -14,6 +14,9 @@ Rename
     npx react-native-rename
     bunx react-native-rename@latest "App12" -b "ir.fad.pashaie.reactnative.app12" 
 
+Icon
+    https://icon.kitchen/
+
 
 ## bunx @react-native-community/cli init
 ## bunx react-native run-android
