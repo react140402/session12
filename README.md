@@ -32,6 +32,10 @@ Share
     bun add react-native-share
     
 
+Storage
+    AsyncStorage
+        @react-native-async-storage/async-storage
+
 
 ## bunx @react-native-community/cli init
 ## bunx react-native run-android
